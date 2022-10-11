@@ -1,0 +1,139 @@
+footer {
+    display: flex;
+    padding: 1.25rem;
+    flex-wrap: wrap;
+}
+.footer-section {
+    margin: 1.25rem auto 1.25rem 0;
+    padding: 1.25rem;
+}
+.bold {
+    font-weight: 700;
+}
+.banner-section {
+    padding: 5rem 1.125rem 5rem;
+    text-align: center;
+}
+.banner-text {
+    color: white;
+    background-color: #393939;
+    padding: 1.25rem;
+    margin: auto;
+    font-size: 2.75rem;
+    font-weight: 400;
+    max-width: 90%;
+}
+.section-cards { 
+    display: flex;
+    flex-flow: column;
+    background-color: #F7F7F7;
+    align-items: flex-start;
+    padding: 2rem;
+}
+.section-cards > * {
+    margin-top: 1.25rem; 
+    text-align: center;
+    margin: auto;
+}
+.card {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    background-color: white;
+    min-width: 20.625rem;
+    max-width: 21.875rem;
+    min-height: 27.5rem;
+    min-height: 28.75rem;
+    margin: 2rem;
+    border-radius: .625rem;
+    box-shadow: 0 5px 9px -1px #909090;
+    overflow: hidden;
+}
+.div-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card__image {
+    margin: 1.25rem auto;
+}
+.card__text {
+    width: 100%;
+    height: 100%;
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+}
+.item__name > h3 {
+    padding-bottom: 0%;
+}
+.item__name > p {
+    color: #909090;
+}
+.item__name {
+    text-align: left;
+}
+.card__text > p {
+    margin-left: auto;
+}
+.button-link {
+    font-weight: 400;
+    font-size: 1.3125rem;
+    text-transform: uppercase;
+    min-width: 180px;
+    max-width: 80%; 
+    Padding: 1.25rem;
+    Background-color: #5BACC3;
+    color: white;
+    min-width: 11.25rem;
+    text-align: center;
+}
+.banner2 {
+    padding: 3rem 0 0;
+    max-width: 90%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.banner2-text {
+    display: flex;
+    flex-flow: column;
+    align-items: start;
+}
+.banner2-text > * {
+    margin-bottom: 1.5rem;
+}
+.banner2-image {
+    display: flex;
+    margin-left: auto;
+    background-image: url(../Assets/Images/coldbrewbackground.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-width: 25rem;
+    max-width: 31.25rem;
+    min-height: 25rem;
+    max-height: 31.25rem;
+    text-align: right;
+    justify-content: center;
+    padding: 2rem;
+}
+.icon-div {
+    display: flex;
+    width: 100%
+
+}
+.icon-div > img {
+    max-width: 3.125rem;
+}
+.icon1 {
+    margin-right: auto
+}
+.icon2 {
+    margin: auto
+}
+.icon3 {
+    margin-left: auto;
+}
+
+
